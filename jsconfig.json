@@ -1,0 +1,20 @@
+{
+  "target": "es2017",
+  "allowSyntheticDefaultImports": false,
+  "baseUrl": "./",
+  "include": ["src/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "es6",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@router/*": ["src/router/*"],
+      "@views/*": ["src/router/views/*"],
+      "@layouts/*": ["src/router/layouts/*"],
+      "@components/*": ["src/components/*"],
+      "@state/*": ["src/state/*"]
+    }
+  }
+}
