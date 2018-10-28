@@ -11,7 +11,7 @@ export const getters = {
       hash[product.id] = product
     })
 
-    // ...
+    // write code here
   },
 }
 

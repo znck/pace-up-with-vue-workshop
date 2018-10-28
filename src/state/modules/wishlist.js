@@ -25,18 +25,18 @@ const ADD_TO_WISHLIST = 'ADD'
 const REMOVE_FROM_WISHLIST = 'REMOVE'
 export const mutations = {
   [ADD_TO_WISHLIST](state, id) {
-    // ...
+    // write code here
   },
   [REMOVE_FROM_WISHLIST](state, id) {
-    // ...
+    // write code here
   },
 }
 
 export const actions = {
   add({ commit }, product) {
-    // ...
+    // write code here
   },
   remove({ commit }, product) {
-    // ...
+    // write code here
   },
 }

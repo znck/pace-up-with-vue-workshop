@@ -6,7 +6,7 @@ export const state = () => ({
 
 export const getters = {
   loggedIn(state) {
-    // ...
+    // write code here
   },
 }
 
@@ -14,16 +14,16 @@ const SET_CURRENT_USER = 'SET_CURRENT_USER'
 
 export const mutations = {
   [SET_CURRENT_USER](state, newUser) {
-    // ...
+    // write code here
   },
 }
 
 export const actions = {
   async logIn({ commit }, { username, password }) {
-    // ...
+    // write code here
   },
   async logOut({ commit }) {
-    // ...
+    // write code here
   },
 }
 

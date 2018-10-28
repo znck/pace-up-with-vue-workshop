@@ -12,7 +12,7 @@ export default [
     name: 'home',
     component: HomePage,
   },
-  // ...
+  // write code here
   {
     path: '/login',
     name: 'login',
