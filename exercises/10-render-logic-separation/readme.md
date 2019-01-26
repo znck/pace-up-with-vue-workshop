@@ -8,4 +8,5 @@ Scoped slots allows parent component render content in child while using data fr
 
 ## Instructions
 
-- Create `
+- Wrap the todo item content in a `<slot>` element and pass data to be used in parent compoent using `v-bind`.
+- Define an alternative <template> in the parent component and access data from the child via the `slot-scope` attribute.
